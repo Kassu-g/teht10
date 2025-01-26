@@ -1,7 +1,13 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx", // Ensure you're using React JSX runtime
+    "strict": true,
+    "moduleResolution": "node",
+    "target": "es6"
+  }
 }
+
+
+
